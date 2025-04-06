@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的作品 - 个人网站</title>
+    <link rel="stylesheet" href="https://unpkg.com/phosphor-icons@1.4.2/css/phosphor.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/components/navbar.css">
+    <link rel="stylesheet" href="assets/css/components/portfolio.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="logo">✨ 李佳朗</a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link"><i class="ph ph-house"></i> 首页</a>
+                <a href="about.html" class="nav-link"><i class="ph ph-user"></i> 简介</a>
+                <a href="portfolio.html" class="nav-link active"><i class="ph ph-paint-brush"></i> 作品</a>
+                <a href="blog.html" class="nav-link"><i class="ph ph-article"></i> 博客</a>
+                <a href="features.html" class="nav-link"><i class="ph ph-gear"></i> 功能</a>
+            </div>
+            <button class="mobile-menu-btn">
+                <i class="ph ph-list"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- 作品集页面内容 -->
+    <main class="portfolio-page">
+        <section class="portfolio-hero">
+            <h1 style="color: #333333;">我的作品集 <span class="emoji">🎨</span></h1>
+            <p style="color: #333333;" class="subtitle">探索我的创意与技术结合的项目</p>
+        </section>
+        
+        <section class="portfolio-content">
+            <div class="filter-controls">
+                <button class="filter-btn active" data-filter="all">全部</button>
+                <button class="filter-btn" data-filter="web">网页设计</button>
+                <button class="filter-btn" data-filter="app">移动应用</button>
+                <button class="filter-btn" data-filter="design">UI/UX</button>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-card">
+                        <img src="https://picsum.photos/800/600?random=1" alt="电商网站重构">
+                        <div class="portfolio-overlay">
+                            <h3>电商网站重构</h3>
+                            <p>React, Node.js, MongoDB</p>
+                            <a href="#" class="btn btn-outline">查看详情</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="app">
+                    <div class="portfolio-card">
+                        <img src="https://picsum.photos/800/600?random=2" alt="健康追踪应用">
+                        <div class="portfolio-overlay">
+                            <h3>健康追踪应用</h3>
+                            <p>React Native, Firebase</p>
+                            <a href="#" class="btn btn-outline">查看详情</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="design">
+                    <div class="portfolio-card">
+                        <img src="https://picsum.photos/800/600?random=3" alt="品牌设计系统">
+                        <div class="portfolio-overlay">
+                            <h3>品牌设计系统</h3>
+                            <p>Figma, Adobe XD</p>
+                            <a href="#" class="btn btn-outline">查看详情</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-card">
+                        <img src="https://picsum.photos/800/600?random=4" alt="在线教育平台">
+                        <div class="portfolio-overlay">
+                            <h3>在线教育平台</h3>
+                            <p>Vue.js, Express, PostgreSQL</p>
+                            <a href="#" class="btn btn-outline">查看详情</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="app">
+                    <div class="portfolio-card">
+                        <img src="https://picsum.photos/800/600?random=5" alt="社交媒体应用">
+                        <div class="portfolio-overlay">
+                            <h3>社交媒体应用</h3>
+                            <p>Flutter, Firebase</p>
+                            <a href="#" class="btn btn-outline">查看详情</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="design">
+                    <div class="portfolio-card">
+                        <img src="https://picsum.photos/800/600?random=6" alt="移动应用UI设计">
+                        <div class="portfolio-overlay">
+                            <h3>移动应用UI设计</h3>
+                            <p>Sketch, Principle</p>
+                            <a href="#" class="btn btn-outline">查看详情</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html> 

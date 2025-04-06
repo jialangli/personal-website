@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的博客 - 个人网站</title>
+    <link rel="stylesheet" href="https://unpkg.com/phosphor-icons@1.4.2/css/phosphor.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/components/navbar.css">
+    <link rel="stylesheet" href="assets/css/components/blog.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="logo">✨ 李佳朗</a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link"><i class="ph ph-house"></i> 首页</a>
+                <a href="about.html" class="nav-link"><i class="ph ph-user"></i> 简介</a>
+                <a href="portfolio.html" class="nav-link"><i class="ph ph-paint-brush"></i> 作品</a>
+                <a href="blog.html" class="nav-link active"><i class="ph ph-article"></i> 博客</a>
+                <a href="features.html" class="nav-link"><i class="ph ph-gear"></i> 功能</a>
+            </div>
+            <button class="mobile-menu-btn">
+                <i class="ph ph-list"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- 博客页面内容 -->
+    <main class="blog-page">
+        <section class="blog-hero">
+            <h1 style="color: #333333;">技术博客 <span class="emoji">✍️</span></h1>
+            <p style="color: #333333;" class="subtitle">分享我的学习与思考</p>
+        </section>
+        
+        <section class="blog-content">
+            <div class="blog-grid">
+                <!-- 博客文章将通过JavaScript动态加载 -->
+            </div>
+            
+            <div class="pagination">
+                <a href="#" class="page-link active">1</a>
+                <a href="#" class="page-link">2</a>
+                <a href="#" class="page-link">3</a>
+                <a href="#" class="page-link next">下一页 <i class="ph ph-arrow-right"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html> 
